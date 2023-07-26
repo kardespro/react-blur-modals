@@ -1,0 +1,38 @@
+{
+  "name": "react-blur-modals",
+  "version": "1.0.0",
+  "description": "A collection of beautiful mobile-friendly modals built with React, Framer Motion, and Tailwind CSS. Easily create stylish and interactive modals for your mobile applications.",
+  
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Kardespro",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.4.4",
+    "@types/react": "^18.2.16",
+    "@types/react-dom": "^18.2.7",
+    "autoprefixer": "^10.4.14",
+    "framer-motion": "^10.13.1",
+    "next": "^13.4.12",
+    "postcss": "^8.4.27",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/tailwindcss": "^3.1.0",
+    "postcss-preset-env": "^9.1.0"
+  }
+}
