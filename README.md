@@ -23,7 +23,7 @@ yarn add react-blur-modals
 
 ## Usage
 
-```jsx
+```js
 import { ModalContent, ModalButton } from 'react-blur-modals';
 import { useState } from 'react';
 
